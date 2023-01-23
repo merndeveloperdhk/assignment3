@@ -31,3 +31,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* address */
+.address-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
