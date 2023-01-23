@@ -11,3 +11,17 @@
 .banner-section{
     background: url(../images/Rectangle\ 6.png)
 }
+/* Card section */
+.card-image{
+    width: 70px;
+}
+.card1{
+    transition: 0.5s;
+}
+.card1:hover{
+    transform: scale(1.1);
+    background-color: whitesmoke;
+}
+.card-2{
+    background-color: lightgray;
+}
