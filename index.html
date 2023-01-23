@@ -27,54 +27,59 @@
   <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container ">
-        <div>
-          <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        
+          <div>
+            <a class="navbar-brand fw-bold fa-2x" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          </div>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav  mb-2 mb-lg-0 m-auto gap-3 fw-bold ">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Home <i class="fa-solid fa-angle-right"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services <i class="fa-solid fa-angle-right"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ">Cases <i class="fa-solid fa-angle-right"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ">Blogs <i class="fa-solid fa-angle-right"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ">Contact us <i class="fa-solid fa-angle-right"></i></a>
+              </li>
+            </ul>         
+          </div>
+          <div>
+            
+            <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary colsul-btn py-3 border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Free consultation
         </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-          <ul class="navbar-nav  mb-2 mb-lg-0 ">
-            <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#">Home <i class="fa-solid fa-angle-right"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services <i class="fa-solid fa-angle-right"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link ">Cases <i class="fa-solid fa-angle-right"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link ">Contact us <i class="fa-solid fa-angle-right"></i></a>
-            </li>
-          </ul>         
+        <div class="modal-body">
+          Welcome to my practice project. 
         </div>
-        <div>
-          <!-- <button class="btn btn-outline-success colsul-btn" type="submit">Free consultation</button> -->
-          <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary colsul-btn py-3 border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Free consultation
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        Welcome to my practice project. 
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">ok</button>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">ok</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
-        </div>
+          </div>
+       
       </div>
     </nav>
   </header>
@@ -98,7 +103,7 @@
       <div class="card-section row m-auto  ">
         <div class=" text-center col-lg-4 col-md-6 my-4 ">
           <div class="card p-4 shadow card1" style="width: 18rem;">
-            <img src="images/Group 10.png" class="card-img-top img-fluid w-25 m-auto" alt="...">
+            <img src="images/Group 10.png" class="card-img-top img-fluid w-auto m-auto" alt="...">
             <div class="card-body">
               <h5 class="card-title py-2">Business Law</h5>
               <p class="card-text pb-3">There are many variations of 
@@ -112,7 +117,7 @@
         </div>
         <div class=" text-center col-lg-4 col-md-6 my-4  ">
           <div class="card p-4 shadow card1 card-2" style="width: 18rem;">
-            <img src="images/Group 15.png" class="card-img-top img-fluid w-25 m-auto" alt="...">
+            <img src="images/Group 15.png" class="card-img-top img-fluid w-auto m-auto" alt="...">
             <div class="card-body">
               <h5 class="card-title py-2">Business Law</h5>
               <p class="card-text pb-3">There are many variations of 
@@ -126,7 +131,7 @@
         </div>
         <div class=" text-center col-lg-4 col-md-6 my-4 ">
           <div class="card p-4 shadow card1" style="width: 18rem;">
-            <img src="images/layer1.png" class="card-img-top img-fluid w-25 m-auto" alt="...">
+            <img src="images/layer1.png" class="card-img-top img-fluid w-auto m-auto" alt="...">
             <div class="card-body">
               <h5 class="card-title py-2">Business Law</h5>
               <p class="card-text pb-3">There are many variations of 
@@ -140,7 +145,7 @@
         </div>
         <div class=" text-center col-lg-4 col-md-6 my-4 ">
           <div class="card p-4 shadow card1" style="width: 18rem;">
-            <img src="images/Group 12.png" class="card-img-top img-fluid w-25 m-auto" alt="...">
+            <img src="images/Group 12.png" class="card-img-top img-fluid w-auto m-auto" alt="...">
             <div class="card-body">
               <h5 class="card-title py-2">Business Law</h5>
               <p class="card-text pb-3">There are many variations of 
@@ -154,7 +159,7 @@
         </div>
         <div class=" text-center col-lg-4 col-md-6 my-4 ">
           <div class="card p-4 shadow card1" style="width: 18rem;">
-            <img src="images/Group 16.png" class="card-img-top img-fluid w-25 m-auto" alt="...">
+            <img src="images/Group 16.png" class="card-img-top img-fluid w-auto m-auto" alt="...">
             <div class="card-body">
               <h5 class="card-title py-2">Business Law</h5>
               <p class="card-text pb-3">There are many variations of 
@@ -168,7 +173,7 @@
         </div>
         <div class=" text-center col-lg-4 col-md-6 my-4 ">
           <div class="card p-4 shadow card1" style="width: 18rem;">
-            <img src="images/Group 13.png" class="card-img-top img-fluid w-25 m-auto" alt="...">
+            <img src="images/Group 13.png" class="card-img-top img-fluid w-auto m-auto" alt="...">
             <div class="card-body">
               <h5 class="card-title py-2">Business Law</h5>
               <p class="card-text pb-3">There are many variations of 
@@ -258,19 +263,19 @@
         </p>
         <div class="collapse" id="collapseExample1">
           <div class="card card-body">
-            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+            The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time
           </div>
         </div>
          </div>
-         <div class="py-2">
+         <div class="pb-2">
           <button class="btn bg-secondary w-100 text-start text-white py-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
-            What is the purpose of media query? <i class="fa-solid fa-plus ms-5 ps-5"></i>
+            What is the purpose of media query? <i class="fa-solid fa-plus ms-5 ps-5 "></i>
           </button>
           </button>
         </p>
         <div class="collapse" id="collapseExample2">
           <div class="card card-body">
-            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+            Media queries are a key part of responsive web design, as they allow you to create different layouts depending on the size of the viewport, but they can also be used to detect other things about the environment your site is running on
           </div>
         </div>
          </div>
@@ -282,7 +287,8 @@
         </p>
         <div class="collapse" id="collapseExample3">
           <div class="card card-body">
-            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+            The semantic HTML tags help the search engines and other user devices to determine the importance and context of web pages.
+            Exp: article, aside, header, footer, section, main etc.
           </div>
         </div>
          </div>
@@ -294,7 +300,7 @@
         </p>
         <div class="collapse" id="collapseExample4">
           <div class="card card-body">
-            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+            In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
           </div>
         </div>
          </div>
