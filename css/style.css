@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .colsul-btn{
-    background-color: B68C5A;
+    background-color: #B68C5A;
+}
+/* banner section start here */
+.banner-section{
+    background: url(../images/Rectangle\ 6.png)
 }
