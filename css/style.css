@@ -25,3 +25,9 @@
 .card-2{
     background-color: lightgray;
 }
+/* corousel image */
+.slider-one{
+    background-image: url(../images/Rectangle\ 4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
